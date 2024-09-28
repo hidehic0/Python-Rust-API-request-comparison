@@ -1,0 +1,10 @@
+/home/hidehico/Documents/PythonRustAPIComparison/target/debug/deps/libproconio-d2b479bf8f1d2c62.rmeta: /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/lib.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/marker.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/mod.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/line.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/once.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/tokens.rs
+
+/home/hidehico/Documents/PythonRustAPIComparison/target/debug/deps/proconio-d2b479bf8f1d2c62.d: /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/lib.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/marker.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/mod.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/line.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/once.rs /home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/tokens.rs
+
+/home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/lib.rs:
+/home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/marker.rs:
+/home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/mod.rs:
+/home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/line.rs:
+/home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/once.rs:
+/home/hidehico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/proconio-0.4.5/src/source/tokens.rs:
