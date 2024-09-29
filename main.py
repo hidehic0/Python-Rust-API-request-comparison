@@ -28,6 +28,7 @@ value_list += value_list[:1]
 angle_list = [n / float(len(label_list)) * 2 * np.pi for n in range(len(label_list))]
 
 angle_list += angle_list[:1]
+
 fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
 
 ax.plot(angle_list, value_list, linewidth=2, linestyle="solid")
