@@ -31,8 +31,12 @@ angle_list = [n / float(len(label_list)) * 2 * np.pi for n in range(len(label_li
 angle_list += angle_list[:1]
 
 fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
+plt.xticks(
+    angle_list[:-1], label_list, color="grey", size=12, fontname="Source Han Code JP"
+)  # fontnameはご自由にどうぞ
 
-ax.plot(angle_list, value_list, linewidth=2, linestyle="solid")
-ax.fill(angle_list, value_list, "b", alpha=0.1)
+ax.plot(angle_list, value_list, linewidth=1, linestyle="solid")
+ax.fill(angle_list, value_list, "blue", alpha=0.1)
+
 
 plt.savefig("chart.png")
