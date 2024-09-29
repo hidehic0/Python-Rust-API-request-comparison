@@ -22,6 +22,8 @@ for stats, p in zip(res["stats"], ["HP", "攻撃", "防御", "特攻", "特防",
     label_list.append(p)
     value_list.append(stats["base_stat"])
 
+# レーダーチャート作成
+
 value_list += value_list[:1]
 
 angle_list = [n / float(len(label_list)) * 2 * pi for n in range(len(label_list))]
@@ -36,5 +38,5 @@ plt.xticks(
 ax.plot(angle_list, value_list, linewidth=1, linestyle="solid")
 ax.fill(angle_list, value_list, "blue", alpha=0.1)
 
-
+# ./chart.pngに保存
 plt.savefig("chart.png")
