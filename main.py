@@ -23,17 +23,14 @@ for stats, p in zip(res["stats"], ["HP", "攻撃", "防御", "特攻", "特防",
     label_list.append(p)
     value_list.append(stats)
 
-value_list.append(value_list[0])
+value_list += value_list[:1]
 
 angle_list = [n / float(len(label_list)) * 2 * np.pi for n in range(len(label_list))]
 
-angle_list.append(angle_list[0])
-
+angle_list += angle_list[:1]
 fig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))
 
+ax.plot(angle_list, value_list, linewidth=2, linestyle="solid")
+ax.fill(angle_list, value_list, "b", alpha=0.1)
 
-plt.xticks(angle_list[:-1], label_list, color="grey", size=12)
-
-ax.plot(
-    angle_list, value_list, linewidth=1, linestyle="solid", label="レーダーチャート"
-)
+plt.show()
