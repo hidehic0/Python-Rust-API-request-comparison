@@ -1,1 +1,1 @@
-/home/hidehico/Documents/PythonRustAPIComparison/target/debug/hoge: /home/hidehico/Documents/PythonRustAPIComparison/main.rs
+/home/hidehico/Documents/Python-Rust-API-request-comparison/target/debug/hoge: /home/hidehico/Documents/Python-Rust-API-request-comparison/main.rs
