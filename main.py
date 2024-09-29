@@ -2,9 +2,7 @@
 import requests
 import json
 import matplotlib.pyplot as plt
-import numpy as np  # type: ignore
-import matplotlib
-
+from math import pi
 
 # APIを叩く
 url = "https://pokeapi.co/api/v2/pokemon/987"
@@ -26,7 +24,7 @@ for stats, p in zip(res["stats"], ["HP", "攻撃", "防御", "特攻", "特防",
 
 value_list += value_list[:1]
 
-angle_list = [n / float(len(label_list)) * 2 * np.pi for n in range(len(label_list))]
+angle_list = [n / float(len(label_list)) * 2 * pi for n in range(len(label_list))]
 
 angle_list += angle_list[:1]
 
